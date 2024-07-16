@@ -9,7 +9,6 @@ for i in range(0, len(s)-4, 5):
     oc.append(s[i+3])
     oc.append(s[i+4])
     sr = sum(oc)/len(oc)
-    print(sr)
     if sr <= 3.44:
         otv.append(sr)
 
